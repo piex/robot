@@ -15,7 +15,7 @@ func (t *Tuling) getReply(msg string, uid string) (string, error) {
 	params := make(map[string]interface{})
 	params["reqType"] = 0
 	params["userInfo"] = UserInfo{
-		APIKey: "dc54d5efed42466f9f0f57def6e7dead",
+		APIKey: "xxx",
 		UserID: uid[2:32],
 	}
 	params["perception"] = Perception{InputText{Text: msg}}
